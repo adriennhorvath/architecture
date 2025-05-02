@@ -110,7 +110,7 @@
         <mxCell id="802l4Ufk_lqTuoDWVHih-14" value="[else]" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;" vertex="1" parent="802l4Ufk_lqTuoDWVHih-12">
           <mxGeometry y="97" width="600" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="802l4Ufk_lqTuoDWVHih-19" value="Eject credit card" style="html=1;verticalAlign=bottom;endArrow=none;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;startFill=1;startArrow=block;" edge="1" parent="802l4Ufk_lqTuoDWVHih-12">
+        <mxCell id="802l4Ufk_lqTuoDWVHih-19" value="Eject credit card" style="html=1;verticalAlign=bottom;endArrow=none;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;startFill=1;startArrow=block;" edge="1" parent="802l4Ufk_lqTuoDWVHih-12" target="802l4Ufk_lqTuoDWVHih-41">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="150" y="180" as="sourcePoint" />
             <mxPoint x="280" y="180" as="targetPoint" />
@@ -156,7 +156,7 @@
         <mxCell id="802l4Ufk_lqTuoDWVHih-28" value="[else]" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;" vertex="1" parent="802l4Ufk_lqTuoDWVHih-26">
           <mxGeometry y="97" width="600" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="802l4Ufk_lqTuoDWVHih-29" value="Eject credit card" style="html=1;verticalAlign=bottom;endArrow=none;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;startFill=1;startArrow=block;" edge="1" parent="802l4Ufk_lqTuoDWVHih-26">
+        <mxCell id="802l4Ufk_lqTuoDWVHih-29" value="Eject credit card" style="html=1;verticalAlign=bottom;endArrow=none;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;startFill=1;startArrow=block;" edge="1" parent="802l4Ufk_lqTuoDWVHih-26" target="802l4Ufk_lqTuoDWVHih-41">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="150" y="169.000909090909" as="sourcePoint" />
             <mxPoint x="282" y="169.16" as="targetPoint" />
@@ -190,7 +190,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="802l4Ufk_lqTuoDWVHih-36" value="Payment" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;endFill=1;" edge="1" parent="1">
+        <mxCell id="802l4Ufk_lqTuoDWVHih-36" value="PaymentAccepted" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;endFill=1;" edge="1" parent="1">
           <mxGeometry x="0.001" relative="1" as="geometry">
             <mxPoint x="411" y="952" as="targetPoint" />
             <Array as="points" />
