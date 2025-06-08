@@ -10,34 +10,34 @@
           </mxCell>
         </UserObject>
         <mxCell id="4r_Y0ZmjXoZ240VpbycW-2" value="Amazon Location Service (Karte)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="280" width="120" height="60" as="geometry" />
+          <mxGeometry x="70" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4r_Y0ZmjXoZ240VpbycW-3" value="API Gateway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="290" width="120" height="60" as="geometry" />
+          <mxGeometry x="400" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4r_Y0ZmjXoZ240VpbycW-4" value="DynamoDB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="480" width="120" height="60" as="geometry" />
+        <mxCell id="4r_Y0ZmjXoZ240VpbycW-4" value="DynamoDB (Beiträge speichern)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="490" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4r_Y0ZmjXoZ240VpbycW-6" value="Amazon S3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="370" width="120" height="60" as="geometry" />
+        <mxCell id="4r_Y0ZmjXoZ240VpbycW-6" value="Amazon S3 (Bilder hochladen)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4r_Y0ZmjXoZ240VpbycW-7" value="API (plant-id 3rd Party Tool)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="250" width="120" height="60" as="geometry" />
+        <mxCell id="4r_Y0ZmjXoZ240VpbycW-7" value="API (plant-id 3rd Party Tool - Pflanzenerkennung)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4r_Y0ZmjXoZ240VpbycW-8" value="Amazon SageMaker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="150" width="120" height="60" as="geometry" />
+        <mxCell id="4r_Y0ZmjXoZ240VpbycW-8" value="Amazon SageMaker (ML Modell für Pollenprognose)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4r_Y0ZmjXoZ240VpbycW-9" value="Amazon Cognito" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="200" width="120" height="60" as="geometry" />
+        <mxCell id="4r_Y0ZmjXoZ240VpbycW-9" value="Amazon Cognito (Authentifizierung)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4r_Y0ZmjXoZ240VpbycW-10" value="Amazon SNS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="390" width="120" height="60" as="geometry" />
+        <mxCell id="4r_Y0ZmjXoZ240VpbycW-10" value="Amazon SNS (Benachrichtigungen)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4r_Y0ZmjXoZ240VpbycW-11" value="Amazon QuickSight BI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="370" width="120" height="60" as="geometry" />
+          <mxGeometry x="600" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4r_Y0ZmjXoZ240VpbycW-12" value="AMW CodePipeline" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="170" width="120" height="60" as="geometry" />
+        <mxCell id="4r_Y0ZmjXoZ240VpbycW-12" value="AWS CodePipeline (Deployment)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="270" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
