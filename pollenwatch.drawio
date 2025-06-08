@@ -9,6 +9,9 @@
             <mxGeometry x="180" y="20" width="560" height="140" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="4r_Y0ZmjXoZ240VpbycW-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4r_Y0ZmjXoZ240VpbycW-2" target="4r_Y0ZmjXoZ240VpbycW-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="4r_Y0ZmjXoZ240VpbycW-2" value="Amazon Location Service (Karte)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="170" width="120" height="60" as="geometry" />
         </mxCell>
@@ -18,29 +21,35 @@
         <mxCell id="4r_Y0ZmjXoZ240VpbycW-4" value="DynamoDB (Beiträge speichern)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="490" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="4r_Y0ZmjXoZ240VpbycW-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4r_Y0ZmjXoZ240VpbycW-6" target="4r_Y0ZmjXoZ240VpbycW-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="4r_Y0ZmjXoZ240VpbycW-6" value="Amazon S3 (Bilder hochladen)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4r_Y0ZmjXoZ240VpbycW-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4r_Y0ZmjXoZ240VpbycW-7" target="4r_Y0ZmjXoZ240VpbycW-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4r_Y0ZmjXoZ240VpbycW-7" value="API (plant-id 3rd Party Tool - Pflanzenerkennung)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4r_Y0ZmjXoZ240VpbycW-8" value="Amazon SageMaker (ML Modell für Pollenprognose)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="70" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4r_Y0ZmjXoZ240VpbycW-9" value="Amazon Cognito (Authentifizierung)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="590" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4r_Y0ZmjXoZ240VpbycW-10" value="Amazon SNS (Benachrichtigungen)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4r_Y0ZmjXoZ240VpbycW-11" value="Amazon QuickSight BI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="410" width="120" height="60" as="geometry" />
+          <mxGeometry x="590" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4r_Y0ZmjXoZ240VpbycW-12" value="AWS CodePipeline (Deployment)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="590" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4r_Y0ZmjXoZ240VpbycW-19" value="" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="390" width="60" height="60" as="geometry" />
+          <mxGeometry x="80" y="410" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4r_Y0ZmjXoZ240VpbycW-20" value="" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="390" width="60" height="60" as="geometry" />
