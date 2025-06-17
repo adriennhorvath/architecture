@@ -1,9 +1,69 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" version="27.1.6">
   <diagram name="Seite-1" id="BrVd1qW4aD3F2fufuzvk">
-    <mxGraphModel>
+    <mxGraphModel dx="976" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="EoLbNmEiCCoNiBtZHmYU-1" value="Developer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="486" y="208" width="100" height="552" as="geometry" />
+        </mxCell>
+        <mxCell id="EoLbNmEiCCoNiBtZHmYU-4" value="Network Folder" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="646" y="208" width="93.41" height="552" as="geometry" />
+        </mxCell>
+        <mxCell id="EoLbNmEiCCoNiBtZHmYU-7" value="Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="786" y="208" width="117.59" height="552" as="geometry" />
+        </mxCell>
+        <mxCell id="EoLbNmEiCCoNiBtZHmYU-13" value="Initiate deployment" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=horizontal;" edge="1" parent="EoLbNmEiCCoNiBtZHmYU-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-86" y="182" as="sourcePoint" />
+            <mxPoint x="54" y="182" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EoLbNmEiCCoNiBtZHmYU-9" value="Production" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="340" y="210" width="100" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="EoLbNmEiCCoNiBtZHmYU-41" value="Send data" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="EoLbNmEiCCoNiBtZHmYU-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="110" as="sourcePoint" />
+            <mxPoint x="190" y="110" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EoLbNmEiCCoNiBtZHmYU-15" value="Send code" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="541" y="357" as="sourcePoint" />
+            <mxPoint x="691" y="357" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EoLbNmEiCCoNiBtZHmYU-27" value="Alternative" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=130;height=27;" vertex="1" parent="1">
+          <mxGeometry x="210" y="450" width="830" height="207" as="geometry" />
+        </mxCell>
+        <mxCell id="EoLbNmEiCCoNiBtZHmYU-28" value="[if Deployment successful]" style="text;html=1;" vertex="1" parent="EoLbNmEiCCoNiBtZHmYU-27">
+          <mxGeometry width="100" height="20" relative="1" as="geometry">
+            <mxPoint x="20" y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EoLbNmEiCCoNiBtZHmYU-29" value="[else]" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;" vertex="1" parent="EoLbNmEiCCoNiBtZHmYU-27">
+          <mxGeometry y="97" width="830" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="EoLbNmEiCCoNiBtZHmYU-5" value="Report error" style="html=1;verticalAlign=bottom;endArrow=none;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;startFill=1;startArrow=block;" edge="1" parent="EoLbNmEiCCoNiBtZHmYU-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="160" as="sourcePoint" />
+            <mxPoint x="636.75" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EoLbNmEiCCoNiBtZHmYU-38" value="CRM Instance" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="950" y="208" width="117.59" height="552" as="geometry" />
+        </mxCell>
+        <mxCell id="EoLbNmEiCCoNiBtZHmYU-31" value="Update application" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="EoLbNmEiCCoNiBtZHmYU-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-100.21000000000004" y="301.0899999999999" as="sourcePoint" />
+            <mxPoint x="58.29500000000007" y="301" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EoLbNmEiCCoNiBtZHmYU-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="60" y="180" width="10" height="538" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
